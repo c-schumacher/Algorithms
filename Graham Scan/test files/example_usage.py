@@ -1,1 +1,1 @@
-convexHull("case5.txt")
+convexHull("case6.txt")

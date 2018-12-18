@@ -1,0 +1,1 @@
+closest_points("1000points.txt", store=False)

@@ -1,1 +1,1 @@
-closest_points("1000points.txt", store=False)
+closest_points("100points.txt", store=False)

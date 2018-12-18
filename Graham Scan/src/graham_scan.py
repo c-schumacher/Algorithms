@@ -1,7 +1,7 @@
 import os
 import math
 
-#path = "SET PATH TO DIRECTORY WHERE TEST FILES ARE STORED"
+#path = 'SET PATH TO DIRECTORY WHERE TEST FILES ARE STORED'
 os.chdir(path)
 
 def convexHull(fname):

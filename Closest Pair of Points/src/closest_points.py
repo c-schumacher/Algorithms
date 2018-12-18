@@ -3,7 +3,7 @@ import math
 import copy
 from itertools import combinations
 
-path = 'SET PATH TO THE DIRECTORY WHERE TEST FILES ARE STORED'
+path = "SET PATH TO THE DIRECTORY WHERE TEST FILES ARE STORED"
 os.chdir(path)
 
 def closest_points(fname, store=False):

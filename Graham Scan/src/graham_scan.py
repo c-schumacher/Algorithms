@@ -33,7 +33,6 @@ def convexHull(fname):
             polarMergeSort(rhalf, pzero)
 
             i, j, k = 0, 0, 0
-
             while i < len(lhalf) and j < len(rhalf):
                 if polarAngle(lhalf[i], pzero) == polarAngle(rhalf[j], pzero):
                     if distance(lhalf[i], pzero) > distance(rhalf[j], pzero):
@@ -54,7 +53,6 @@ def convexHull(fname):
                 lst[k] = lhalf[i]
                 i += 1
                 k += 1
-
             while j < len(rhalf):
                 lst[k] = rhalf[j]
                 j += 1
